@@ -1,0 +1,775 @@
+﻿{
+    "FileName": "MAINTC",
+    "Lines": [
+        {
+            "Items": [
+                {
+                   "EnumValues": [
+						{
+                            "Index": "0",
+                            "Value": "None"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Spindle speed (x1000 revs.)"
+                        },
+                        {
+                            "Index": "2",
+                            "Value": "X-axis travel distance (m) [in. x 100 inch]"
+                        }
+						{
+                            "Index": "3",
+                            "Value": "Y-axis travel distance (m) [in. x 100 inch]"
+                        },
+                        {
+                            "Index": "4",
+                            "Value": "Z-axis travel distance (m) [in. x 100 inch]"
+                        }
+						{
+                            "Index": "5",
+                            "Value": "4-axis speed (Rotation)"
+                        },
+						{
+                            "Index": "6",
+                            "Value": "5-axis speed (Rotation)"
+                        },
+                        {
+                            "Index": "7",
+                            "Value": "6-axis speed (Rotation)"
+                        }
+						{
+                            "Index": "8",
+                            "Value": "7-axis speed (Rotation)"
+                        },
+                        {
+                            "Index": "9",
+                            "Value": "8-axis speed (Rotation)"
+                        }
+						{
+                            "Index": "10",
+                            "Value": "Tool change times (No. of times)"
+                        },
+						{
+                            "Index": "11",
+                            "Value": "Magazine turn pitches (Pitch)"
+                        },
+                        {
+                            "Index": "12",
+                            "Value": "Center-through-coolant ON time (Hours, minutes, seconds)"
+                        }
+						{
+                            "Index": "13",
+                            "Value": "Center-through-coolant ON times (No. of times)"
+                        },
+                        {
+                            "Index": "14",
+                            "Value": "Outer/Front door closings (No. of times)
+                        }
+						{
+                            "Index": "15",
+                            "Value": "Side door closings (No. of times)"
+                        },
+						{
+                            "Index": "16",
+                            "Value": "Inner door closings (No. of times)F"
+                        },
+                        {
+                            "Index": "17",
+                            "Value": "Servo ON times (No. of times)"
+                        }
+						{
+                            "Index": "18",
+                            "Value": "Power ON times (No. of times)"
+                        },
+                        {
+                            "Index": "19",
+                            "Value": "Power ON times (Hours, minutes, seconds)"
+                        }
+						{
+                            "Index": "20",
+                            "Value": "P1-1-axis travel amount"
+                        },
+						{
+                            "Index": "21",
+                            "Value": "P2-2-axis travel amount"
+                        },
+                        {
+                            "Index": "22",
+                            "Value": "P3-3-axis travel amount"
+                        }
+						{
+                            "Index": "23",
+                            "Value": "P4-4-axis travel amount"
+                        }
+                    ],
+                    "Name": "No.1 (Type)",
+                    "Length": "2",
+                    "Type": "enum"
+                },
+				{
+                    "Name": "No.1 (Message)",
+                    "Length": "22",
+                    "Type": "Character"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Disabled"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Enabled"
+                        }
+                    ],
+                    "Name": "No.1 (Function)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Do not notify"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Notify"
+                        }
+                    ],
+                    "Name": "No.1 (Message notification)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{
+                    "Name": "No.1 (Current value)",
+                    "Length": "9",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "No.1 (End value)",
+                    "Length": "9",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "Q01"
+        },
+		        {
+            "Items": [
+                {
+                   "EnumValues": [
+						{
+                            "Index": "0",
+                            "Value": "None"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Spindle speed (x1000 revs.)"
+                        },
+                        {
+                            "Index": "2",
+                            "Value": "X-axis travel distance (m) [in. x 100 inch]"
+                        }
+						{
+                            "Index": "3",
+                            "Value": "Y-axis travel distance (m) [in. x 100 inch]"
+                        },
+                        {
+                            "Index": "4",
+                            "Value": "Z-axis travel distance (m) [in. x 100 inch]"
+                        }
+						{
+                            "Index": "5",
+                            "Value": "4-axis speed (Rotation)"
+                        },
+						{
+                            "Index": "6",
+                            "Value": "5-axis speed (Rotation)"
+                        },
+                        {
+                            "Index": "7",
+                            "Value": "6-axis speed (Rotation)"
+                        }
+						{
+                            "Index": "8",
+                            "Value": "7-axis speed (Rotation)"
+                        },
+                        {
+                            "Index": "9",
+                            "Value": "8-axis speed (Rotation)"
+                        }
+						{
+                            "Index": "10",
+                            "Value": "Tool change times (No. of times)"
+                        },
+						{
+                            "Index": "11",
+                            "Value": "Magazine turn pitches (Pitch)"
+                        },
+                        {
+                            "Index": "12",
+                            "Value": "Center-through-coolant ON time (Hours, minutes, seconds)"
+                        }
+						{
+                            "Index": "13",
+                            "Value": "Center-through-coolant ON times (No. of times)"
+                        },
+                        {
+                            "Index": "14",
+                            "Value": "Outer/Front door closings (No. of times)
+                        }
+						{
+                            "Index": "15",
+                            "Value": "Side door closings (No. of times)"
+                        },
+						{
+                            "Index": "16",
+                            "Value": "Inner door closings (No. of times)F"
+                        },
+                        {
+                            "Index": "17",
+                            "Value": "Servo ON times (No. of times)"
+                        }
+						{
+                            "Index": "18",
+                            "Value": "Power ON times (No. of times)"
+                        },
+                        {
+                            "Index": "19",
+                            "Value": "Power ON times (Hours, minutes, seconds)"
+                        }
+						{
+                            "Index": "20",
+                            "Value": "P1-1-axis travel amount"
+                        },
+						{
+                            "Index": "21",
+                            "Value": "P2-2-axis travel amount"
+                        },
+                        {
+                            "Index": "22",
+                            "Value": "P3-3-axis travel amount"
+                        }
+						{
+                            "Index": "23",
+                            "Value": "P4-4-axis travel amount"
+                        }
+                    ],
+                    "Name": "No.1 (Type)",
+                    "Length": "2",
+                    "Type": "enum"
+                },
+				{
+                    "Name": "No.1 (Message)",
+                    "Length": "22",
+                    "Type": "Character"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Disabled"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Enabled"
+                        }
+                    ],
+                    "Name": "No.1 (Function)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Do not notify"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Notify"
+                        }
+                    ],
+                    "Name": "No.1 (Message notification)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{
+                    "Name": "No.1 (Current value)",
+                    "Length": "9",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "No.1 (End value)",
+                    "Length": "9",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "Q02"
+        },
+                {
+            "Items": [
+                {
+                   "EnumValues": [
+						{
+                            "Index": "0",
+                            "Value": "None"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Spindle speed (x1000 revs.)"
+                        },
+                        {
+                            "Index": "2",
+                            "Value": "X-axis travel distance (m) [in. x 100 inch]"
+                        }
+						{
+                            "Index": "3",
+                            "Value": "Y-axis travel distance (m) [in. x 100 inch]"
+                        },
+                        {
+                            "Index": "4",
+                            "Value": "Z-axis travel distance (m) [in. x 100 inch]"
+                        }
+						{
+                            "Index": "5",
+                            "Value": "4-axis speed (Rotation)"
+                        },
+						{
+                            "Index": "6",
+                            "Value": "5-axis speed (Rotation)"
+                        },
+                        {
+                            "Index": "7",
+                            "Value": "6-axis speed (Rotation)"
+                        }
+						{
+                            "Index": "8",
+                            "Value": "7-axis speed (Rotation)"
+                        },
+                        {
+                            "Index": "9",
+                            "Value": "8-axis speed (Rotation)"
+                        }
+						{
+                            "Index": "10",
+                            "Value": "Tool change times (No. of times)"
+                        },
+						{
+                            "Index": "11",
+                            "Value": "Magazine turn pitches (Pitch)"
+                        },
+                        {
+                            "Index": "12",
+                            "Value": "Center-through-coolant ON time (Hours, minutes, seconds)"
+                        }
+						{
+                            "Index": "13",
+                            "Value": "Center-through-coolant ON times (No. of times)"
+                        },
+                        {
+                            "Index": "14",
+                            "Value": "Outer/Front door closings (No. of times)
+                        }
+						{
+                            "Index": "15",
+                            "Value": "Side door closings (No. of times)"
+                        },
+						{
+                            "Index": "16",
+                            "Value": "Inner door closings (No. of times)F"
+                        },
+                        {
+                            "Index": "17",
+                            "Value": "Servo ON times (No. of times)"
+                        }
+						{
+                            "Index": "18",
+                            "Value": "Power ON times (No. of times)"
+                        },
+                        {
+                            "Index": "19",
+                            "Value": "Power ON times (Hours, minutes, seconds)"
+                        }
+						{
+                            "Index": "20",
+                            "Value": "P1-1-axis travel amount"
+                        },
+						{
+                            "Index": "21",
+                            "Value": "P2-2-axis travel amount"
+                        },
+                        {
+                            "Index": "22",
+                            "Value": "P3-3-axis travel amount"
+                        }
+						{
+                            "Index": "23",
+                            "Value": "P4-4-axis travel amount"
+                        }
+                    ],
+                    "Name": "No.1 (Type)",
+                    "Length": "2",
+                    "Type": "enum"
+                },
+				{
+                    "Name": "No.1 (Message)",
+                    "Length": "22",
+                    "Type": "Character"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Disabled"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Enabled"
+                        }
+                    ],
+                    "Name": "No.1 (Function)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Do not notify"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Notify"
+                        }
+                    ],
+                    "Name": "No.1 (Message notification)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{
+                    "Name": "No.1 (Current value)",
+                    "Length": "9",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "No.1 (End value)",
+                    "Length": "9",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "Q03"
+        },
+		        {
+            "Items": [
+                {
+                   "EnumValues": [
+						{
+                            "Index": "0",
+                            "Value": "None"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Spindle speed (x1000 revs.)"
+                        },
+                        {
+                            "Index": "2",
+                            "Value": "X-axis travel distance (m) [in. x 100 inch]"
+                        }
+						{
+                            "Index": "3",
+                            "Value": "Y-axis travel distance (m) [in. x 100 inch]"
+                        },
+                        {
+                            "Index": "4",
+                            "Value": "Z-axis travel distance (m) [in. x 100 inch]"
+                        }
+						{
+                            "Index": "5",
+                            "Value": "4-axis speed (Rotation)"
+                        },
+						{
+                            "Index": "6",
+                            "Value": "5-axis speed (Rotation)"
+                        },
+                        {
+                            "Index": "7",
+                            "Value": "6-axis speed (Rotation)"
+                        }
+						{
+                            "Index": "8",
+                            "Value": "7-axis speed (Rotation)"
+                        },
+                        {
+                            "Index": "9",
+                            "Value": "8-axis speed (Rotation)"
+                        }
+						{
+                            "Index": "10",
+                            "Value": "Tool change times (No. of times)"
+                        },
+						{
+                            "Index": "11",
+                            "Value": "Magazine turn pitches (Pitch)"
+                        },
+                        {
+                            "Index": "12",
+                            "Value": "Center-through-coolant ON time (Hours, minutes, seconds)"
+                        }
+						{
+                            "Index": "13",
+                            "Value": "Center-through-coolant ON times (No. of times)"
+                        },
+                        {
+                            "Index": "14",
+                            "Value": "Outer/Front door closings (No. of times)
+                        }
+						{
+                            "Index": "15",
+                            "Value": "Side door closings (No. of times)"
+                        },
+						{
+                            "Index": "16",
+                            "Value": "Inner door closings (No. of times)F"
+                        },
+                        {
+                            "Index": "17",
+                            "Value": "Servo ON times (No. of times)"
+                        }
+						{
+                            "Index": "18",
+                            "Value": "Power ON times (No. of times)"
+                        },
+                        {
+                            "Index": "19",
+                            "Value": "Power ON times (Hours, minutes, seconds)"
+                        }
+						{
+                            "Index": "20",
+                            "Value": "P1-1-axis travel amount"
+                        },
+						{
+                            "Index": "21",
+                            "Value": "P2-2-axis travel amount"
+                        },
+                        {
+                            "Index": "22",
+                            "Value": "P3-3-axis travel amount"
+                        }
+						{
+                            "Index": "23",
+                            "Value": "P4-4-axis travel amount"
+                        }
+                    ],
+                    "Name": "No.1 (Type)",
+                    "Length": "2",
+                    "Type": "enum"
+                },
+				{
+                    "Name": "No.1 (Message)",
+                    "Length": "22",
+                    "Type": "Character"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Disabled"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Enabled"
+                        }
+                    ],
+                    "Name": "No.1 (Function)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Do not notify"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Notify"
+                        }
+                    ],
+                    "Name": "No.1 (Message notification)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{
+                    "Name": "No.1 (Current value)",
+                    "Length": "9",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "No.1 (End value)",
+                    "Length": "9",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "Q04"
+        },
+		        {
+            "Items": [
+                {
+                   "EnumValues": [
+						{
+                            "Index": "0",
+                            "Value": "None"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Spindle speed (x1000 revs.)"
+                        },
+                        {
+                            "Index": "2",
+                            "Value": "X-axis travel distance (m) [in. x 100 inch]"
+                        }
+						{
+                            "Index": "3",
+                            "Value": "Y-axis travel distance (m) [in. x 100 inch]"
+                        },
+                        {
+                            "Index": "4",
+                            "Value": "Z-axis travel distance (m) [in. x 100 inch]"
+                        }
+						{
+                            "Index": "5",
+                            "Value": "4-axis speed (Rotation)"
+                        },
+						{
+                            "Index": "6",
+                            "Value": "5-axis speed (Rotation)"
+                        },
+                        {
+                            "Index": "7",
+                            "Value": "6-axis speed (Rotation)"
+                        }
+						{
+                            "Index": "8",
+                            "Value": "7-axis speed (Rotation)"
+                        },
+                        {
+                            "Index": "9",
+                            "Value": "8-axis speed (Rotation)"
+                        }
+						{
+                            "Index": "10",
+                            "Value": "Tool change times (No. of times)"
+                        },
+						{
+                            "Index": "11",
+                            "Value": "Magazine turn pitches (Pitch)"
+                        },
+                        {
+                            "Index": "12",
+                            "Value": "Center-through-coolant ON time (Hours, minutes, seconds)"
+                        }
+						{
+                            "Index": "13",
+                            "Value": "Center-through-coolant ON times (No. of times)"
+                        },
+                        {
+                            "Index": "14",
+                            "Value": "Outer/Front door closings (No. of times)
+                        }
+						{
+                            "Index": "15",
+                            "Value": "Side door closings (No. of times)"
+                        },
+						{
+                            "Index": "16",
+                            "Value": "Inner door closings (No. of times)F"
+                        },
+                        {
+                            "Index": "17",
+                            "Value": "Servo ON times (No. of times)"
+                        }
+						{
+                            "Index": "18",
+                            "Value": "Power ON times (No. of times)"
+                        },
+                        {
+                            "Index": "19",
+                            "Value": "Power ON times (Hours, minutes, seconds)"
+                        }
+						{
+                            "Index": "20",
+                            "Value": "P1-1-axis travel amount"
+                        },
+						{
+                            "Index": "21",
+                            "Value": "P2-2-axis travel amount"
+                        },
+                        {
+                            "Index": "22",
+                            "Value": "P3-3-axis travel amount"
+                        }
+						{
+                            "Index": "23",
+                            "Value": "P4-4-axis travel amount"
+                        }
+                    ],
+                    "Name": "No.1 (Type)",
+                    "Length": "2",
+                    "Type": "enum"
+                },
+				{
+                    "Name": "No.1 (Message)",
+                    "Length": "22",
+                    "Type": "Character"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Disabled"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Enabled"
+                        }
+                    ],
+                    "Name": "No.1 (Function)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Do not notify"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Notify"
+                        }
+                    ],
+                    "Name": "No.1 (Message notification)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{
+                    "Name": "No.1 (Current value)",
+                    "Length": "9",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "No.1 (End value)",
+                    "Length": "9",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "Q05"
+        }
+    ]
+}

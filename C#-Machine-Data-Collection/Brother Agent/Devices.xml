@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MTConnectDevices xmlns:mt='urn:mtconnect.org:MTConnectDevices:1.3' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='urn:mtconnect.org:MTConnectDevices:1.3' xsi:schemaLocation='urn:mtconnect.org:MTConnectDevices:1.3 ./schemas/MTConnectDevices_1.3.xsd'>
+  <Header creationTime='2013-04-02T03:40:04Z' assetBufferSize='1024' sender='localhost' assetCount='0' version='1.2' instanceId='1' bufferSize='131072'/>
+  <Devices>
+    <Device name='DEMO' uuid='IOT_LAB' id='IOT_LAB_1'>
+      <Description model='X1000S1' manufacturer='MTC'>MTConnect Machine - Machine</Description>
+      <DataItems>
+        <DataItem type='AVAILABILITY' category='EVENT' id='dtop_3' name='avail'/>
+        <DataItem type='EMERGENCY_STOP' category='EVENT' id='dtop_2' name='eStop'/>
+        <DataItem id="dtop_5" name="status" type="FUNCTIONAL_MODE" category="EVENT" />
+      </DataItems>
+      <Components>
+        <Axes name='axes' id='axes_4'>
+          <Components>
+            <Rotary name='C' nativeName="C" id='C_1'>
+              <DataItems>
+                <DataItem type="ROTARY_VELOCITY" category="SAMPLE" id="C_2" name="sSpeed" units="REVOLUTION/MINUTE"/>
+				<DataItem type='PATH_FEEDRATE' category='SAMPLE' id='C_3' name='Feedrate' subType='ACTUAL' units='MILLIMETER/SECOND' nativeUnits='MILLIMETER/SECOND'/>
+				<DataItem category="EVENT" id="C_4" name="sOverride" nativeUnits="PERCENT" type="ROTARY_VELOCITY_OVERRIDE" units="PERCENT"/>
+				<DataItem type='PATH_FEEDRATE_OVERRIDE' category='EVENT' id='C_5' name='fOverride' units='PERCENT' nativeUnits='PERCENT'/>
+				<DataItem type='DOOR_STATE' category='EVENT' id='C_6' name='opMode'/>
+				<DataItem category="EVENT" id="C_7" name="sToolNum" type="TOOL_NUMBER"/>
+				</DataItems>
+            </Rotary>
+          </Components>
+        </Axes>
+        <Controller name='controller' id='controller_10'>
+          <DataItems>
+			<DataItem type='MESSAGE' category='EVENT' id='controller_12' name='message'/>
+			<DataItem type='ALARM' category='CONDITION' id='controller_13' name='alarm'/>
+			<DataItem category="EVENT" id="controller_14" name="ProgramNum/ErrorNum" type="TOOL_NUMBER"/>
+      <DataItem category="EVENT" id="controller_15" name="OPLOG" type="TOOL_NUMBER"/>
+      <DataItem category="EVENT" id="controller_16" name="MAINTC_UNIT" type="TOOL_NUMBER"/>
+      <DataItem category="EVENT" id="controller_17" name="MAINTC_FUNCTION" type="TOOL_NUMBER"/>
+      <DataItem category="EVENT" id="controller_18" name="MAINTC_CURRENT_VAL" type="TOOL_NUMBER"/>
+      <DataItem category="EVENT" id="controller_19" name="MAINTC_TARGET_VAL" type="TOOL_NUMBER"/>
+      <DataItem category="EVENT" id="controller_20" name="MAINTC_NOTICE" type="TOOL_NUMBER"/>
+      <DataItem category="EVENT" id="controller_21" name="MAINTC_STATUS" type="TOOL_NUMBER"/>
+            
+            
+          </DataItems>
+		</Controller>
+      </Components>
+    </Device>
+  </Devices>
+</MTConnectDevices>

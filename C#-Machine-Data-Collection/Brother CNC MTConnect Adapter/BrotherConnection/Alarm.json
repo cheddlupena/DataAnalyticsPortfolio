@@ -1,0 +1,291 @@
+﻿{
+    "FileName": "ALARM",
+    "Lines": [
+        {
+            "Items": [
+                {
+				"EnumValues": [
+                        {
+                            "Index": "01",
+                            "Value": "EX"
+                        },
+                        {
+                            "Index": "02",
+                            "Value": "EC"
+                        },
+						{
+                            "Index": "03",
+                            "Value": "SV"
+                        },
+                        {
+                            "Index": "04",
+                            "Value": "NC"
+                        },
+						{
+                            "Index": "05",
+                            "Value": "IO"
+                        },
+                        {
+                            "Index": "06",
+                            "Value": "SP"
+                        },
+						{
+                            "Index": "07",
+                            "Value": "SM"
+                        },
+                        {
+                            "Index": "08",
+                            "Value": "SL"
+                        },
+						{
+                            "Index": "09",
+                            "Value": "CM"
+                        },
+						{
+                            "Index": "10",
+                            "Value": "ES"
+                        },
+                        {
+                            "Index": "11",
+                            "Value": "FC"
+                        },
+						
+						{
+                            "Index": "90",
+                            "Value": "OM"
+                        }
+                    ],
+                    "Name": "Alarm/Operator message No.1",
+                    "Length": "10",
+                    "Type": "enum"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "01",
+                            "Value": "EX"
+                        },
+                        {
+                            "Index": "02",
+                            "Value": "EC"
+                        },
+						{
+                            "Index": "03",
+                            "Value": "SV"
+                        },
+                        {
+                            "Index": "04",
+                            "Value": "NC"
+                        },
+						{
+                            "Index": "05",
+                            "Value": "IO"
+                        },
+                        {
+                            "Index": "06",
+                            "Value": "SP"
+                        },
+						{
+                            "Index": "07",
+                            "Value": "SM"
+                        },
+                        {
+                            "Index": "08",
+                            "Value": "SL"
+                        },
+						{
+                            "Index": "09",
+                            "Value": "CM"
+                        },
+						{
+                            "Index": "10",
+                            "Value": "ES"
+                        },
+                        {
+                            "Index": "11",
+                            "Value": "FC"
+                        },
+						
+						{
+                            "Index": "90",
+                            "Value": "OM"
+                        }
+                    ],
+                    "Name": "Alarm/Operator message No.2",
+                    "Length": "10",
+                    "Type": "enum"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "01",
+                            "Value": "EX"
+                        },
+                        {
+                            "Index": "02",
+                            "Value": "EC"
+                        },
+						{
+                            "Index": "03",
+                            "Value": "SV"
+                        },
+                        {
+                            "Index": "04",
+                            "Value": "NC"
+                        },
+						{
+                            "Index": "05",
+                            "Value": "IO"
+                        },
+                        {
+                            "Index": "06",
+                            "Value": "SP"
+                        },
+						{
+                            "Index": "07",
+                            "Value": "SM"
+                        },
+                        {
+                            "Index": "08",
+                            "Value": "SL"
+                        },
+						{
+                            "Index": "09",
+                            "Value": "CM"
+                        },
+						{
+                            "Index": "10",
+                            "Value": "ES"
+                        },
+                        {
+                            "Index": "11",
+                            "Value": "FC"
+                        },
+						
+						{
+                            "Index": "90",
+                            "Value": "OM"
+                        }
+                    ],
+                    "Name": "Alarm/Operator message No.3",
+                    "Length": "10",
+                    "Type": "enum"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "01",
+                            "Value": "EX"
+                        },
+                        {
+                            "Index": "02",
+                            "Value": "EC"
+                        },
+						{
+                            "Index": "03",
+                            "Value": "SV"
+                        },
+                        {
+                            "Index": "04",
+                            "Value": "NC"
+                        },
+						{
+                            "Index": "05",
+                            "Value": "IO"
+                        },
+                        {
+                            "Index": "06",
+                            "Value": "SP"
+                        },
+						{
+                            "Index": "07",
+                            "Value": "SM"
+                        },
+                        {
+                            "Index": "08",
+                            "Value": "SL"
+                        },
+						{
+                            "Index": "09",
+                            "Value": "CM"
+                        },
+						{
+                            "Index": "10",
+                            "Value": "ES"
+                        },
+                        {
+                            "Index": "11",
+                            "Value": "FC"
+                        },
+						
+						{
+                            "Index": "90",
+                            "Value": "OM"
+                        }
+                    ],
+                    "Name": "Alarm/Operator message No.4",
+                    "Length": "10",
+                    "Type": "enum"
+                },
+				{
+				"EnumValues": [
+                        {
+                            "Index": "01",
+                            "Value": "EX"
+                        },
+                        {
+                            "Index": "02",
+                            "Value": "EC"
+                        },
+						{
+                            "Index": "03",
+                            "Value": "SV"
+                        },
+                        {
+                            "Index": "04",
+                            "Value": "NC"
+                        },
+						{
+                            "Index": "05",
+                            "Value": "IO"
+                        },
+                        {
+                            "Index": "06",
+                            "Value": "SP"
+                        },
+						{
+                            "Index": "07",
+                            "Value": "SM"
+                        },
+                        {
+                            "Index": "08",
+                            "Value": "SL"
+                        },
+						{
+                            "Index": "09",
+                            "Value": "CM"
+                        },
+						{
+                            "Index": "10",
+                            "Value": "ES"
+                        },
+                        {
+                            "Index": "11",
+                            "Value": "FC"
+                        },
+						
+						{
+                            "Index": "90",
+                            "Value": "OM"
+                        }
+                    ],
+                    "Name": "Alarm/Operator message No.5",
+                    "Length": "10",
+                    "Type": "enum"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "E01"
+        }
+    ]
+}

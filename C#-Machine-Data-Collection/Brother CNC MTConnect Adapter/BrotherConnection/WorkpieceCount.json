@@ -1,0 +1,213 @@
+﻿{
+    "FileName": "WKCNTR",
+    "Lines": [
+        {
+            "Items": [
+                {
+                    "Name": "Workpiece counter 1 (Count)",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 1 (Current)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 1 (End)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 1 (End warning)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "A01"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Workpiece counter 2 (Count)",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 2 (Current)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 2 (End)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 2 (End warning)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "2",
+            "Symbol": "A02"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Workpiece counter 3 (Count)",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 3 (Current)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 3 (End)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 3 (End warning)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "3",
+            "Symbol": "A03"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Workpiece counter 4 (Count)",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 4 (Current)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 4 (End)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 4 (End warning)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "4",
+            "Symbol": "A04"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Workpiece counter 1 (Count)",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 1 (Current)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 1 (End)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 1 (End warning)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "5",
+            "Symbol": "B01"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Workpiece counter 2 (Count)",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 2 (Current)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 2 (End)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 2 (End warning)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "6",
+            "Symbol": "B02"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Workpiece counter 3 (Count)",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 3 (Current)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 3 (End)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 3 (End warning)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "7",
+            "Symbol": "B03"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Workpiece counter 4 (Count)",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 4 (Current)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 4 (End)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Workpiece counter 4 (End warning)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "8",
+            "Symbol": "B04"
+        }
+	]
+}

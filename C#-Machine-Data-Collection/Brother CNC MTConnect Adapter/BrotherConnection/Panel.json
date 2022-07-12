@@ -1,0 +1,364 @@
+﻿{
+    "FileName": "PANEL",
+    "Lines": [
+        {
+            "Items": [
+                {  
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Close"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Open"
+                        }
+                    ],
+                    "Name": "Outer Door",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{  
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Close"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Open"
+                        }
+                    ],
+                    "Name": "Inner Door",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{  
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Close"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Open"
+                        }
+                    ],
+                    "Name": "Side Door",
+                    "Length": "1",
+                    "Type": "enum"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "D01"
+        },
+        {
+            "Items": [
+                {  
+				"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Manual"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "MDI Operation"
+                        },
+						{
+                            "Index": "2",
+                            "Value": "Memory Operation"
+                        },
+                        {
+                            "Index": "3",
+                            "Value": "Program edit"
+                        },
+						{
+                            "Index": "4",
+                            "Value": "MDI manual"
+                        },
+                        {
+                            "Index": "5",
+                            "Value": "Operating edit"
+                        }
+                    ],
+                    "Name": "Mode",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                {
+                    "EnumValues": [
+						{
+                            "Index": "0",
+                            "Value": "Display OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Alarm"
+                        },
+                        {
+                            "Index": "2",
+                            "Value": "Data Bank"
+                        },
+						{
+                            "Index": "3",
+                            "Value": "ATC Tool"
+                        },
+                        {
+                            "Index": "4",
+                            "Value": "Program"
+                        },
+						{
+                            "Index": "5",
+                            "Value": "Manual Conditions"
+                        },
+						{
+                            "Index": "6",
+                            "Value": "Position"
+                        },
+                        {
+                            "Index": "7",
+                            "Value": "I/O"
+                        }
+						{
+                            "Index": "8",
+                            "Value": "Monitor"
+                        }
+						{
+                            "Index": "9",
+                            "Value": "Graph"
+                        }
+                    ],
+                    "Name": "Screen",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                { 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "ON"
+                        }
+					],
+                    "Name": "Block skip",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                { 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "ON"
+                        }
+					],
+                    "Name": "OPT Stop",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                { 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "ON"
+                        }
+					],
+                    "Name": "Single Block",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                { 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "ON"
+                        }
+					],
+                    "Name": "Dry run",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{ 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "ON"
+                        }
+					],
+                    "Name": "Machine lock",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{ 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "ON"
+                        }
+					],
+                    "Name": "Coolant pump",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{ 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "ON"
+                        }
+					],
+                    "Name":"Chip shower",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{ 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "ON"
+                        }
+					],
+                    "Name": "Machine light",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+				{ 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "1"
+                        },
+						{
+                            "Index": "2",
+                            "Value": "2"
+                        },
+						{
+                            "Index": "3",
+                            "Value": "1-2"
+                        }
+					],
+                    "Name": "Pallet select key",
+                    "Length": "1",
+                    "Type": "enum"
+                }
+            ],
+            "Number": "2",
+            "Symbol": "K01"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Rapid tranverse override",
+                    "Length": "1",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Feedrate override",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Spindle override",
+                    "Length": "3",
+                    "Type": "Number"
+                },
+                { 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "ON"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "OFF"
+                        }
+					],
+                    "Name": "Emergency stop",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                { 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "ON
+                        }
+					],
+                    "Name": "Door interlock",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                { 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Enabled"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Disabled"
+                        }
+					],
+                    "Name": "Data protection",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+               { 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "OFF"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "ON"
+                        }
+					],
+                    "Name": "MASTER",
+                    "Length": "1",
+                    "Type": "enum"
+                }
+            ],
+            "Number": "3",
+            "Symbol": "S01
+        }
+    ]
+}

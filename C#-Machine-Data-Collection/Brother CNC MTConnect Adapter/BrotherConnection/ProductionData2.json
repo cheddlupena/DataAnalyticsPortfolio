@@ -1,0 +1,365 @@
+﻿{
+    "FileName": "PRDC2",
+    "Lines": [
+        {
+            "Items": [
+                {
+                    "Name": "Cycle time (1) (Hrs./Min./0.1 Sec.)",
+                    "Length": "9",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Cutting time (1) (Hrs./Min./0.1 Sec.)",
+                    "Length": "9",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Cycle time (2) (Hrs./Min./0.1 Sec.)",
+                    "Length": "9",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Cutting time (2) (Hrs./Min./0.1 Sec.)",
+                    "Length": "9",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Program No. (1)",
+                    "Length": "4",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Program No. (2)",
+                    "Length": "4",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Program folder (1)",
+                    "Length": "10",
+                    "Type": "Character"
+                },
+				{
+                    "Name": "Program folder (2)",
+                    "Length": "10",
+                    "Type": "Character"
+                },
+				{
+					"EnumValues": [
+                       {
+                            "Index": "0",
+                            "Value": "Internal memory operation"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Tape operation - General communications device"
+                        },
+						{
+                            "Index": "2",
+                            "Value": "Tape operation - Memory Card"
+                        }
+                    ],
+                    "Name": "Memory operation type (1)",
+                    "Length": "10",
+                    "Type": "enum"
+                },
+				{
+					"EnumValues": [
+                       {
+                            "Index": "0",
+                            "Value": "Internal memory operation"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Tape operation - General communications device"
+                        },
+						{
+                            "Index": "2",
+                            "Value": "Tape operation - Memory Card"
+                        }
+                    ],
+                    "Name": "Memory operation type (2)",
+                    "Length": "10",
+                    "Type": "enum"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "L01"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "Operation time status",
+                    "Length": "1",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Operation time index",
+                    "Length": "2",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "2",
+            "Symbol": "M01"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Operation time log 1 (Date)",
+                    "Length": "8",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log 1 (Hours,minutes,seconds)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (No. of operations)",
+                    "Length": "5",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (Power ON time)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "3",
+            "Symbol": "N01"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Operation time log 1 (Date)",
+                    "Length": "8",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log 1 (Hours,minutes,seconds)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (No. of operations)",
+                    "Length": "5",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (Power ON time)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "4",
+            "Symbol": "N02"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Operation time log 1 (Date)",
+                    "Length": "8",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log 1 (Hours,minutes,seconds)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (No. of operations)",
+                    "Length": "5",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (Power ON time)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "5",
+            "Symbol": "N03"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Operation time log 1 (Date)",
+                    "Length": "8",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log 1 (Hours,minutes,seconds)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (No. of operations)",
+                    "Length": "5",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (Power ON time)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "6",
+            "Symbol": "N04"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Operation time log 1 (Date)",
+                    "Length": "8",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log 1 (Hours,minutes,seconds)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (No. of operations)",
+                    "Length": "5",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (Power ON time)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "7",
+            "Symbol": "N05"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Operation time log 1 (Date)",
+                    "Length": "8",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log 1 (Hours,minutes,seconds)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (No. of operations)",
+                    "Length": "5",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (Power ON time)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "8",
+            "Symbol": "N06"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Operation time log 1 (Date)",
+                    "Length": "8",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log 1 (Hours,minutes,seconds)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (No. of operations)",
+                    "Length": "5",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (Power ON time)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "9",
+            "Symbol": "N07"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Operation time log 1 (Date)",
+                    "Length": "8",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log 1 (Hours,minutes,seconds)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (No. of operations)",
+                    "Length": "5",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (Power ON time)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "10",
+            "Symbol": "N08"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Operation time log 1 (Date)",
+                    "Length": "8",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log 1 (Hours,minutes,seconds)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (No. of operations)",
+                    "Length": "5",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (Power ON time)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "11",
+            "Symbol": "N09"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Operation time log 1 (Date)",
+                    "Length": "8",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log 1 (Hours,minutes,seconds)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (No. of operations)",
+                    "Length": "5",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Operation time log (Power ON time)",
+                    "Length": "6",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "12",
+            "Symbol": "N10"
+        }
+    ]
+}

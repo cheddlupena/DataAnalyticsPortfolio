@@ -1,0 +1,190 @@
+﻿{
+    "FileName": "PRD3",
+    "Lines": [
+        {
+            "Items": [
+                {
+                    "Name": "Start Pointer",
+                    "Length": "4",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "End Pointer",
+                    "Length": "4",
+                    "Type": "Number"
+                },
+				{
+                    "Name": "Status",
+                    "Length": "1",
+                    "Type": "Number"
+                }
+            ],
+            "Number": "1",
+            "Symbol": "A01"
+        },
+        {
+            "Items": [
+                {
+                    "Name": "Current (Start date and time)",
+                    "Length": "14",
+                    "Type": "Number"
+                },
+                {
+                    "EnumValues": [
+                        {
+                            "Index": "1",
+                            "Value": "Power OFF"
+                        },
+                        {
+                            "Index": "2",
+                            "Value": "Standby mode"
+                        },
+						            {
+                            "Index": "3",
+                            "Value": "Operating"
+                        },
+                        {
+                            "Index": "4",
+                            "Value": "Stopped"
+                        },
+						            {
+                            "Index": "5",
+                            "Value": "Error"
+                        }
+                    ],
+                    "Name": "Current (Status)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                { 
+					"EnumValues": [
+                          {
+                            "Index": "0",
+                            "Value": "NC"
+                          },
+                          {
+                            "Index": "1",
+                            "Value": "Conversation"
+                          }
+					              ],
+                    "Name": "Current status (Language)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                {
+                    "Name": "Current status (Program No. / Error No.)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Current status (Folder Name)",
+                    "Length": "10",
+                    "Type": "Character"
+                },
+                {
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Internal memory operation"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Tape operation - General communications device"
+                        },
+						            {
+                            "Index": "2",
+                            "Value": "Tape operation - Memory Card"
+                        }
+					              ],
+                    "Name": "Memory operation type",
+                    "Length": "1",
+                    "Type": "enum"
+                }
+            ],
+            "Number": "2",
+            "Symbol": "C01"
+        },
+		{
+            "Items": [
+                {
+                    "Name": "Current (Start date and time)",
+                    "Length": "14",
+                    "Type": "Number"
+                },
+                {
+                    "EnumValues": [
+                        {
+                            "Index": "1",
+                            "Value": "Power OFF"
+                        },
+                        {
+                            "Index": "2",
+                            "Value": "Standby mode"
+                        },
+						            {
+                            "Index": "3",
+                            "Value": "Operating"
+                        },
+                        {
+                            "Index": "4",
+                            "Value": "Stopped"
+                        },
+						            {
+                            "Index": "5",
+                            "Value": "Error"
+                        }
+                    ],
+                    "Name": "Current (Status)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                { 
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "NC"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Conversation"
+                        }
+					],
+                    "Name": "Current Status (Language)",
+                    "Length": "1",
+                    "Type": "enum"
+                },
+                {
+                    "Name": "Current Status (Program No. / Error No.)",
+                    "Length": "6",
+                    "Type": "Number"
+                },
+                {
+                    "Name": "Current Status (Folder Name)",
+                    "Length": "10",
+                    "Type": "Character"
+                },
+                {
+					"EnumValues": [
+                        {
+                            "Index": "0",
+                            "Value": "Internal memory operation"
+                        },
+                        {
+                            "Index": "1",
+                            "Value": "Tape operation - General communications device"
+                        },
+						            {
+                            "Index": "2",
+                            "Value": "Tape operation - Memory Card"
+                        }
+					],
+                    "Name": "Memory operation type",
+                    "Length": "1",
+                    "Type": "enum"
+                }
+            ],
+            "Number": "3",
+            "Symbol": "B0001"
+        }
+    ]
+}
